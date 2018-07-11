@@ -137,54 +137,13 @@ body {
 /***********************************************/
 
 
-/*header*/
-
-
-/*Header Top header*/
-
-#header .top_header {
-    min-height: 50px;
-    background: #FBFBFB;
-    border-bottom: 2px solid #F2F2F2;
-    padding-top: 15px;
-}
-#header .top_header .address {
-    border-right: 1px solid #E6E5E5;
-}
-#header .top_header .address p {
-    font-size: 12px;
-    padding-top: 2px;
-    color: #646464;
-    font-family: 'Open Sans', sans-serif;
-}
-#header .top_header .phone p {
-    color: #646464;
-    font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 1px;
-    display: inline-block;
-}
-#header .top_header .address i,
-#header .top_header .phone i {
-    padding: 3px 5px;
-    font-size: 15px;
-}
-#header .top_header .social_icon i {
-    padding: 0 5px;
-    color: #787878;
-    font-size: 12px;
-    font-weight: 700;
-}
-#header .top_header .social_icon i:hover {
-    color: #43A906;
-}
-
-/*End of top header*/
+/*Header*/
 
 #header .header_menu {
-    min-height: 80px;
+    min-height: 50px;
     border-bottom: 1px solid #3D3E3D;
-    z-index: 9999
+    z-index: 9999;
+    background-color: #ffffff;
 }
 #header .header_menu .navbar {
     border: 0px solid transparent;
@@ -202,20 +161,20 @@ body {
     background-color: rgba(255, 255, 255, 0);
 }
 #header .header_menu .main_menu {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 #header .header_menu ul.main_menu li a {
-    color: #393939;
+    color: #0D19BF;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Roboto Slab', serif;
 }
 #header .header_menu ul.main_menu li a:hover {
-    color: #4DA91C;
+    color: #0D19BF;
 }
 #header .header_menu ul.main_menu li.active a {
-    color: #4DA91C;
+    color: #0D19BF;
 }
 #header .header_menu ul.main_menu li,
 #header .header_menu ul.main_menu li.active a {
@@ -234,14 +193,10 @@ body {
 #header .header_menu ul.main_menu li:hover:after,
 #header .header_menu ul.main_menu li.active:after {
     width: 90%;
-    background: #4DA91C;
+    background: #0D19BF;
 }
 
-/*Slider*/
-
-#slider{
-    min-height: 1000px;
-}
+/* slider */
 
 /*Footer*/
 
