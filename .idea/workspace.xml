@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161600a4-6abe-4662-bb43-249d4db57be7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/view/js/sticky.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/css/carousel.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/view/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/img/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/img/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/img/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/view/img/img3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,20 +19,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+            <state relative-caret-position="167">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
+            <state relative-caret-position="269">
+              <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sticky.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/js/sticky.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -53,6 +59,8 @@
       <find>header_menu</find>
       <find>#header .header_menu .m</find>
       <find>header</find>
+      <find>carousel</find>
+      <find>li.active</find>
       <find>slider</find>
     </findStrings>
   </component>
@@ -74,8 +82,9 @@
         <option value="$PROJECT_DIR$/view/js/home.js" />
         <option value="$PROJECT_DIR$/view/js/about.js" />
         <option value="$PROJECT_DIR$/../DGV/ProiectTW2018/view/javascriptFiles/index.js" />
-        <option value="$PROJECT_DIR$/view/index.html" />
         <option value="$PROJECT_DIR$/view/css/style.css" />
+        <option value="$PROJECT_DIR$/view/js/sticky.js" />
+        <option value="$PROJECT_DIR$/view/index.html" />
       </list>
     </option>
   </component>
@@ -122,6 +131,12 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Utileaider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Utileaider" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,12 +176,12 @@
       <workItem from="1531130725496" duration="920000" />
       <workItem from="1531133045786" duration="1191000" />
       <workItem from="1531198641172" duration="642000" />
-      <workItem from="1531200678084" duration="7781000" />
+      <workItem from="1531200678084" duration="10375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14616000" />
+    <option name="totallyTimeSpent" value="17210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -350,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/js/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/js/technology.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -376,17 +384,31 @@
         <state relative-caret-position="-1224" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.html">
+    <entry file="file://$PROJECT_DIR$/view/js/about.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="93" column="37" selection-start-line="93" selection-start-column="37" selection-end-line="93" selection-end-column="37" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/js/sticky.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
+        <state relative-caret-position="269">
+          <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
         </state>
       </provider>
     </entry>
