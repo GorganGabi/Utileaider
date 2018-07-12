@@ -1,0 +1,1 @@
+For slider the dimension of the photo is: 1900x820
