@@ -1,1 +1,3 @@
-$(function(){var e=$(".notes").isotope({itemSelector:".note"})});
+$(function () {
+    var e = $(".notes").isotope({itemSelector: ".note"})
+});
