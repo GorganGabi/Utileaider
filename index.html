@@ -126,7 +126,7 @@
 
 
 <!--Start of welcome section-->
-<section id="welcome">
+<section id="welcome" name="welcome">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -929,6 +929,20 @@
 
 <script src="js/gmaps.min.js"></script>
 <script type="text/javascript">
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
     var map;
     $(document).ready(function () {
         map = new GMaps({
