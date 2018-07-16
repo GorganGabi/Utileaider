@@ -490,6 +490,22 @@ li.fw-flash-message {
     min-height: 300px;
 }
 
+/*Services*/
+#list{
+    float: left;
+}
+#services{
+    background-image: url("../img/sevices.jpg");
+    background-size: cover;
+}
+#services .container .row .title h3,
+#services .container .row p,
+#services .container .row h3,
+#services .container .row ul
+{
+    color:#ffffff;
+}
+
 /*Footer*/
 
 #footer {
