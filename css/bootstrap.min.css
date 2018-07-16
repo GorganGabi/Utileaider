@@ -6912,9 +6912,10 @@ button.close {
     }
 
     .carousel-caption {
-        right: 20%;
-        left: 20%;
-        padding-bottom: 30px
+        left: 15%;
+        padding-bottom: 30px;
+        float: left;
+        width:50%;
     }
 
     .carousel-indicators {
