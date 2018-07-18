@@ -100,7 +100,7 @@
     </div>
 </section>
 
-<section id="welcome">
+<section id="welcome" class="anchor">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -181,25 +181,32 @@
             </div>
         </div>
         <div class="row">
-            <h3>Consulting </h3>
-            <p>
-                Utileaider offers consulting solutions for sustainable smart street lighting. It helps to reduce carbon footprints and establish
-                sustainability for lighting solutions across industry and utility.
-            </p>
-
-            <p>
-                Utileaider offers consulting solutions for smart grid. It helps industry and utilities to build deeper understanding of meter
-            communication infrastructure to setup their smart grid road map.
-        </p>
+            <div id="consulting">
+                <h3>Consulting </h3>
+                <p>
+                    Utileaider offers consulting solutions for sustainable smart street lighting. It helps to reduce
+                    carbon footprints and establish
+                    sustainability for lighting solutions across industry and utility.
+                </p>
+                <p>
+                    Utileaider offers consulting solutions for smart grid. It helps industry and utilities to build
+                    deeper understanding of meter
+                    communication infrastructure to setup their smart grid road map.
+                </p>
+            </div>
         </div>
         <div class="row">
+            <div id="training"></div>
             <h3>Training</h3>
             <p>
-                Utileaider training program target power distribution personnel directly or indirectly related to smart grid implementation.
+                Utileaider training program target power distribution personnel directly or indirectly related to smart
+                grid implementation.
                 The training program addresses skill shortage in smart grid domain.
             </p>
         </div>
-        <div class="row">
+    </div>
+    <div class="row">
+        <div id="our-training">
             <h3> Our training includes </h3>
             <ul id="list">
                 <li>Advance Metering Infrastructure</li>
@@ -216,7 +223,8 @@
             <div class="colmd-12">
                 <div class="contact_area text-center">
                     <h3>get in touch</h3>
-                    <p>Thank you for your interest in Utileaider products. Please fill up the following Product/Service Enquiry herewith as much details as possible to help us evaluate your request.</p>
+                    <p>Thank you for your interest in Utileaider products. Please fill up the following Product/Service
+                        Enquiry herewith as much details as possible to help us evaluate your request.</p>
                 </div>
             </div>
         </div>
@@ -263,11 +271,13 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <input type="subject" class="form-control" id="organization" placeholder="Organization *">
+                                        <input type="subject" class="form-control" id="organization"
+                                               placeholder="Organization *">
                                         <input type="subject" class="form-control" id="adress1" placeholder="Adress1 *">
                                         <input type="subject" class="form-control" id="adress2" placeholder="Adress2 *">
                                         <input type="subject" class="form-control" id="phone" placeholder="Phone *">
-                                        <input type="subject" class="form-control" id="organization-url" placeholder="Organization Url *">
+                                        <input type="subject" class="form-control" id="organization-url"
+                                               placeholder="Organization Url *">
                                         <div class="text_area">
                                             <textarea name="contact-message" id="msg" class="form-control" cols="30"
                                                       rows="8" placeholder="Message"></textarea>
@@ -288,8 +298,6 @@
     </div>
 
 </section>
-
-
 
 
 <section id="footer">
@@ -326,11 +334,11 @@
 
 <script src="js/gmaps.min.js"></script>
 <script type="text/javascript">
-    $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    $(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
                     $('html, body').animate({
                         scrollTop: target.offset().top
