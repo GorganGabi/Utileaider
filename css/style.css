@@ -580,14 +580,14 @@ li.fw-flash-message {
     color: #fff;
 }
 
-#footer .copyright,
-#footer .designer {
+#footer .copyright{
     padding-top: 45px;
     font-size: 14px;
+    text-align: center;
 }
 
 #footer .copyright p {
-    text-align: left;
+    text-align: center;
 }
 
 #footer .designer p {
