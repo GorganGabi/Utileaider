@@ -75,7 +75,7 @@ ul li{
 }
 
 .list-type1{
-    width: 900px;
+    width: 700px;
     margin:0 auto;
 
 }
@@ -93,7 +93,7 @@ ul li{
     display: inline;
     padding: .4em .4em .4em .4em;
     margin: .5em 0;
-    background:#23527c;
+    background:#0000CC;
     color: #ffffff;
     text-decoration: none;
     -moz-border-radius: .3em;
@@ -212,7 +212,7 @@ body {
 }
 
 #header .header_menu ul.main_menu li a {
-    color: #0000FF;
+    color: #0000CC;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -220,11 +220,11 @@ body {
 }
 
 #header .header_menu ul.main_menu li a:hover {
-    color: #0000FF;
+    color: #0000CC;
 }
 
 #header .header_menu ul.main_menu li.active a {
-    color: #0000FF;
+    color: #0000CC;
 }
 
 #header .header_menu ul.main_menu li,
@@ -247,7 +247,7 @@ body {
 #header .header_menu ul.main_menu li:hover:after,
 #header .header_menu ul.main_menu li.active:after {
     width: 90%;
-    background: #0000FF;
+    background: #0000CC;
 }
 
 /*Slider*/
@@ -285,7 +285,7 @@ body {
     font-size: 14px;
     color: #fff;
     padding: 15px 25px;
-    background: #0000FF;
+    background: #0000CC;
     border-radius: 2px;
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
@@ -417,7 +417,7 @@ li.fw-flash-message {
 
 .custom-btn {
     padding: 13px 82px;
-    background: #0000FF;
+    background: #0000CC;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -486,7 +486,7 @@ li.fw-flash-message {
 }
 
 #services div {
-    margin-bottom: 1%;
+    margin-bottom: 1.5%;
 }
 #services {
     /*background-image: url("../img/services.jpg");*/
@@ -504,7 +504,7 @@ li.fw-flash-message {
 /*}*/
 
 #our-training{
-    padding-left: 1%;
+    padding-left: 1.25%;
 }
 
 #our-training h3{
@@ -564,7 +564,7 @@ li.fw-flash-message {
     transition: all 0.5s ease;
     opacity: 0;
     display: none;
-    background: #0000FF;
+    background: #0000CC;
 }
 
 #back-to-top:hover {
@@ -818,7 +818,7 @@ ul.entry-meta {
 .team-section {
    overflow: hidden;
    text-align: center;
-   background: #173e6c;
+   background: #0000CC;
    padding: 60px;
 }
 
