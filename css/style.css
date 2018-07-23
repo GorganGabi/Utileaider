@@ -396,6 +396,7 @@ body {
     margin: 0 auto;
     border: 1px solid #C4C4C4;
     transition: .7s;
+
 }
 
 #welcome .welcome_icon i {
@@ -433,6 +434,7 @@ body {
     color: #0000FF;
     cursor: pointer;
 }
+
 
 /*Contact*/
 
