@@ -18,6 +18,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script src="js/aboutus.js"></script>
+    <script src="js/contactus.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#header">
@@ -156,20 +157,19 @@
         </div>
     </div>
 
+    <div class="team-section">
+        <h1><b>Our Team</b></h1>
+        <span class="border"></span>
+        <div class="ps">
+            <a href="#p1"><img src="img/person1.png" onclick="showText()" alt=""></a>
+            <a href="#p2"><img src="img/person2.png" onclick="showText1()" alt=""></a>
+            <a href="#p3"><img src="img/person3.png" onclick="showText2()" alt=""></a>
+        </div>
+        <div class="section" id="person">
+
+        </div>
+    </div>
 </section>
-
-<div class="team-section">
-    <h1><b>Our Team</b></h1>
-    <span class="border"></span>
-    <div class="ps">
-        <a href="#p1"><img src="img/person1.png" onclick="showText()" alt=""></a>
-        <a href="#p2"><img src="img/person2.png" onclick="showText1()" alt=""></a>
-        <a href="#p3"><img src="img/person3.png" onclick="showText2()" alt=""></a>
-    </div>
-    <div class="section" id="person">
-
-    </div>
-</div>
 
 <section id="services">
     <div class="container">
@@ -268,32 +268,29 @@
                         <!-- CONTACT FORM -->
                         <div class="contact-form wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
                             <div id="message"></div>
-                            <form action="scripts/contact.php" class="form-horizontal contact-1" role="form"
-                                  name="contactform" id="contactform">
+                            <form class="form-horizontal contact-1" role="form" name="contactform" id="contactform">
                                 <div class="form-group">
                                     <div class="col-sm-6">
                                         <input type="text" class="form-control" name="name" id="name"
-                                               placeholder="Name">
+                                               placeholder="Name*">
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="text" class="form-control" name="email" id="email"
-                                               placeholder="Email">
+                                               placeholder="Email*">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="col-sm-12">
-                                        <input type="subject" class="form-control" id="organization"
-                                               placeholder="Organization *">
-                                        <input type="subject" class="form-control" id="adress1" placeholder="Adress1 *">
-                                        <input type="subject" class="form-control" id="adress2" placeholder="Adress2 *">
+                                        <input type="subject" class="form-control" id="organization" placeholder="Organization *">
+                                        <input type="subject" class="form-control" id="adress1" placeholder="Adress *">
                                         <input type="subject" class="form-control" id="phone" placeholder="Phone *">
                                         <input type="subject" class="form-control" id="organization-url"
-                                               placeholder="Organization Url *">
+                                               placeholder="Organization Url">
                                         <div class="text_area">
                                             <textarea name="contact-message" id="msg" class="form-control" cols="30"
                                                       rows="8" placeholder="Message"></textarea>
                                         </div>
-                                        <button type="submit" class="btn custom-btn" data-loading-text="Loading...">
+                                        <button type="submit" onclick="validateForm()   " class="btn custom-btn" data-loading-text="Loading...">
                                             Send
                                         </button>
                                     </div>
@@ -303,9 +300,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 
 </section>
