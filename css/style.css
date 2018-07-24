@@ -385,14 +385,14 @@ body {
 
 #welcome .single_item {
     padding-top: 30px;
-    text-align: center;
+    text-align: justify;
 }
 
 #welcome .welcome_icon {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
     border: 1px solid #C4C4C4;
     transition: .7s;
@@ -414,6 +414,8 @@ body {
     transition: 0.7s;
     font-family: 'Roboto Slab', serif;
 }
+
+
 
 #welcome .item_list p {
     font-size: 14px;
@@ -1075,3 +1077,122 @@ ul.entry-meta {
     cursor: pointer;
 }
 
+
+
+
+/*products*/
+.main_about {
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+}
+
+.about_bottom_content {
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap
+}
+
+.about_bottom_content .about_bottom_item {
+
+}
+
+.ab_head {
+	width: 100%;
+	display: table;
+}
+
+.ab_head .ab_head_icon {
+	float: left;
+	margin-right: 20px;
+}
+
+.ab_head .ab_head_icon .icofont,
+.ab_head .ab_head_icon .icon {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 1.5rem;
+	background-color: #ff6863;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 6px rgba(255, 104, 99, 0.4);
+
+}
+
+
+
+.faq_main_content h6 {
+	margin-bottom: 0rem;
+	border: 1px solid;
+	border-color: #eee;
+	position: relative;
+}
+
+.faq_main_content h6 + div {
+	height: 0px;
+	padding: 0px;
+	overflow: hidden;
+	display: block!important;
+	-webkit-transform: translateZ(0);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	margin-bottom: 10px;
+	border: 0px solid #cdcdcd;
+}
+
+.faq_main_content h6 + div.open {
+	height: 133px;
+	border: 1px solid;
+	border-top: 0;
+	border-color: #eee;
+}
+
+.faq_main_content h6 a {
+	display: block;
+	color: #6a6a6a;
+	text-decoration: none;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+.faq_main_content h6 span {
+	font-weight: 600;
+}
+
+.faq_main_content h6 a i {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #eeeeee;
+	text-align: center;
+	color: #444444;
+	margin-right: 15px;
+	font-size: 1.5rem;
+}
+
+.faq_main_content h6.open a {
+	color: #444;
+}
+
+.faq_main_content h6.open a i {
+	color: #fff;
+	background-color: #444444;
+}
+
+
+.faq_main_content h6.open a i {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.faq_main_content .content {
+	padding: 25px;
+	color: #4a4a4a;
+}
+
+.hidden {
+    display : none !important;
+}
