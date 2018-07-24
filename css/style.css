@@ -93,7 +93,7 @@ ul li{
     display: inline;
     padding: .4em .4em .4em .4em;
     margin: .5em 0;
-    background:#0000CC;
+    background:#008B8B;
     color: #ffffff;
     text-decoration: none;
     -moz-border-radius: .3em;
@@ -212,7 +212,7 @@ body {
 }
 
 #header .header_menu ul.main_menu li a {
-    color: #0000CC;
+    color:#0099CC	;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -220,11 +220,11 @@ body {
 }
 
 #header .header_menu ul.main_menu li a:hover {
-    color: #0000CC;
+    color: #0099CC	;
 }
 
 #header .header_menu ul.main_menu li.active a {
-    color: #0000CC;
+    color: #0099CC	;
 }
 
 #header .header_menu ul.main_menu li,
@@ -247,7 +247,7 @@ body {
 #header .header_menu ul.main_menu li:hover:after,
 #header .header_menu ul.main_menu li.active:after {
     width: 90%;
-    background: #0000CC;
+    background: #0099CC	;
 }
 
 /*Slider*/
@@ -285,7 +285,7 @@ body {
     font-size: 14px;
     color: #fff;
     padding: 15px 25px;
-    background: #0000CC;
+    background: #0099CC;
     border-radius: 2px;
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
@@ -424,7 +424,7 @@ body {
 }
 
 #welcome .item_list:hover .welcome_icon {
-    background: #0000FF;
+    background: #0099CC	;
     cursor: pointer;
 }
 
@@ -433,8 +433,68 @@ body {
 }
 
 #welcome .item_list:hover h4 {
-    color: #0000FF;
+    color: #0099CC	;
     cursor: pointer;
+}
+
+section#counter {
+    background: url(../img/training-bg.jpg) no-repeat scroll top center / cover;
+    color: #fff;
+}
+.counter_img_overlay {
+    position: relative;
+    padding: 80px 80px 80px 230px ;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.counter_header h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-right: 250px;
+    font-family: 'Roboto Slab', serif;
+}
+.counter_header p {
+    font-size: 16px;
+    padding-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+}
+.counter_text {
+    color: #fff;
+    font-weight: 700;
+}
+.sigle_counter_item {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.sigle_counter_item img {
+    padding-bottom: 20px;
+    height: 90px;
+}
+.sigle_counter_item i {
+    font-size: 60px;
+    padding: 10px;
+    color: #0099CC	;
+}
+.counter_text span {
+    font-size: 32px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+.counter_text p {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    margin-top: 10px;
 }
 
 
@@ -497,7 +557,7 @@ li.fw-flash-message {
 
 .custom-btn {
     padding: 13px 82px;
-    background: #0000CC;
+    background: #0099CC	;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -644,7 +704,7 @@ li.fw-flash-message {
     transition: all 0.5s ease;
     opacity: 0;
     display: none;
-    background: #0000CC;
+    background: #0099CC	;
 }
 
 #back-to-top:hover {
@@ -792,7 +852,7 @@ ul.entry-meta {
 }
 
 .btn-primmary {
-    background-color: #43a906;
+    background-color: #0099CC	;
     padding: 10px 30px;
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
@@ -880,7 +940,7 @@ ul.entry-meta {
 .btn-color-background {
     -webkit-user-select: none;
     /*background-image: -webkit-gradient(145deg,#78b4fb 0%, #1d5daa 0%, #0a284c 100%);*/
-    background: linear-gradient(to bottom right,#1d5daa,#78b4fb );
+    background: linear-gradient(to bottom right,#0099CC,#78b4fb );
     border: 1px solid #bfa67a;
     border-radius: 2px; 
     /*color: #ffffff;*/
@@ -897,7 +957,7 @@ ul.entry-meta {
 .team-section {
    overflow: hidden;
    text-align: center;
-   background: #0000CC;
+   background: #0099CC;
    padding: 60px;
 }
 
@@ -913,7 +973,7 @@ ul.entry-meta {
     margin : auto ; 
     width : 160px ; 
     height: 3px;
-    background: #78b4fb;
+    background: #0099CC;
     margin-bottom: 40px;
 }
 
@@ -980,7 +1040,7 @@ ul.entry-meta {
     font-family: 'Open Sans', sans-serif;
 }
 #partner .partner_content h3 span {
-    color: #1d5aa3;
+    color: #0099CC;
 }
 #oartner .partner_content p {
     font-size: 14px;
@@ -994,10 +1054,10 @@ ul.entry-meta {
     padding: 80px 0;
 }
 #partner .join_us a.vol_cust_btn {
-    background: #1d5aa3;
+    background: #0099CC;
     color: #fff;
     padding: 8px 50px;
-    border: 1px solid #1d5aa3;
+    border: 1px solid #0099CC;
     border-radius: 3px;
     text-transform: uppercase;
     font-size: 18px;
@@ -1066,14 +1126,14 @@ ul.entry-meta {
     font-family: 'Open Sans', sans-serif;
 }
 #welcome .item_list:hover .welcome_icon {
-    background: #43a906;
+    background: #0099CC;
     cursor: pointer;
 }
 #welcome .item_list:hover .welcome_icon i {
     color: #fff;
 }
 #welcome .item_list:hover h4 {
-    color: #43a906;
+    color: #0099CC;
     cursor: pointer;
 }
 
