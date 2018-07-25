@@ -250,6 +250,16 @@ body {
     background: #0099CC	;
 }
 
+/*Content*/
+
+#content #slider{
+    padding: 0px;
+}
+
+#content{
+    padding: 16px;
+}
+
 /*Slider*/
 
 #slider {
@@ -352,10 +362,14 @@ body {
 }
 
 /*Welcome Section*/
-#about{
+#about {
     min-height: 350px;
     background: #fff;
-    padding: 155px 1.1em 1.1em;
+    padding: 80px 1.1em 1.1em;
+}
+
+#about:target {
+    padding-top: -90px;
 }
 
 .wel_header {
@@ -503,7 +517,7 @@ section#counter {
 #contact {
     min-height: 650px;
     background: #eeeeee;
-    padding: 155px 1.1em 1.1em;
+    padding: 80px 1.1em 1.1em;
 }
 
 .msg {
@@ -631,7 +645,7 @@ li.fw-flash-message {
 #services {
     /*background-image: url("../img/services.jpg");*/
     background-size: cover;
-    padding: 155px 1.1em 1.1em;
+    padding: 80px 1.1em 1.1em;
     height:100%;
     max-height: 1000px;
 }
@@ -1070,7 +1084,6 @@ ul.entry-meta {
 #welcome {
     min-height: 350px;
     background: #fff;
-    padding: 80px 0;
 }
 .wel_header {
     text-align: center;
