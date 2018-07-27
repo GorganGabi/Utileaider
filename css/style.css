@@ -132,11 +132,8 @@ img {
     height: auto;
 }
 
-html {
-    height: 100%
-}
-
-body {
+html, body {
+    height: 100%;
 }
 
 /*Input focus color removed*/
@@ -460,8 +457,8 @@ section#counter {
 }
 .counter_img_overlay {
     position: relative;
-    padding: 80px 80px 80px 120px ;
     text-align: center;
+    padding: 80px 0 80px 50px;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
@@ -470,8 +467,8 @@ section#counter {
     text-transform: uppercase;
     font-size: 36px;
     font-weight: 700;
-    padding-bottom: 10px;
-    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-right: 200px;
     font-family: 'Roboto Slab', serif;
 }
 .counter_header p {
@@ -485,8 +482,7 @@ section#counter {
     font-weight: 700;
 }
 .sigle_counter_item {
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding: 20px 0 0 80px;
 }
 .sigle_counter_item img {
     padding-bottom: 20px;
@@ -531,11 +527,6 @@ input#name,
 input#email {
 
     margin-bottom: 10px !important;
-}
-
-.text_area textarea {
-    resize: none;
-    width: 555px;
 }
 
 .text_area textarea,
