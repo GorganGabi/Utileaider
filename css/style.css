@@ -361,15 +361,11 @@ html, body {
     z-index: 2;
 }
 
-/*Welcome Section*/
+/*about Section*/
 #about {
     min-height: 350px;
     background: #fff;
-    padding: 80px 1.1em 1.1em;
-}
-
-#about:target {
-    padding-top: -90px;
+    padding: 80px 0;
 }
 
 .wel_header {
@@ -380,75 +376,6 @@ html, body {
 
 .fw-heading.fw-heading-center {
     padding-bottom: 40px;
-
-}
-
-.wel_header h2 {
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding-bottom: 25px;
-    font-family: 'Roboto Slab', serif !important;
-    color: #222222;
-}
-
-.wel_header p {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#welcome .single_item {
-    padding-top: 30px;
-    text-align: justify;
-}
-
-#welcome .welcome_icon {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: justify;
-    margin: 0 auto;
-    border: 1px solid #C4C4C4;
-    transition: .7s;
-
-}
-
-#welcome .welcome_icon i {
-    margin-top: 25%;
-    font-size: 50px;
-    transition: .7s;
-}
-
-#welcome .item_list h4 {
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    color: #393939;
-    transition: 0.7s;
-    font-family: 'Roboto Slab', serif;
-}
-
-
-
-#welcome .item_list p {
-    font-size: 14px;
-    color: #646464;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#welcome .item_list:hover .welcome_icon {
-    background: #0099CC	;
-    cursor: pointer;
-}
-
-#welcome .item_list:hover .welcome_icon i {
-    color: #fff;
-}
-
-#welcome .item_list:hover h4 {
-    color: #0099CC	;
-    cursor: pointer;
 }
 
 section#counter {
@@ -1050,7 +977,7 @@ ul.entry-meta {
 #partner .partner_content h3 span {
     color: #0099CC;
 }
-#oartner .partner_content p {
+#partner .partner_content p {
     font-size: 14px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -1102,8 +1029,8 @@ ul.entry-meta {
     font-family: 'Open Sans', sans-serif;
 }
 #welcome .single_item {
-    padding-top: 30px;
-    text-align: center;
+    padding: 20px 0 10px 20px;
+    text-align: justify;
 }
 #welcome .welcome_icon {
     width: 100px;
@@ -1120,7 +1047,7 @@ ul.entry-meta {
     transition: .7s;
 }
 #welcome .item_list h4 {
-    padding: 20px;
+    padding: 10px 0 10px 40px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
@@ -1132,6 +1059,7 @@ ul.entry-meta {
     font-size: 14px;
     color: #646464;
     font-family: 'Open Sans', sans-serif;
+    padding: 0 0 30px 40px;
 }
 #welcome .item_list:hover .welcome_icon {
     background: #0099CC;
