@@ -9,5 +9,7 @@ function validateForm(){
     var message = document.getElementById("msg").value;
     if (name.length === 0 || email.length === 0 || organization.length === 0 || adress.length === 0 || phone.length === 0){
         alert("Please fill all the required fields!")
+        return false;
     }
+    return true;
 }

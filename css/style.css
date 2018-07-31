@@ -152,11 +152,11 @@ html, body {
     box-shadow: none;
 }
 
+/***************************/
+
 #logo{
     cursor:pointer;
 }
-
-/***************************/
 
 .zero_mp {
     padding: 0;
@@ -743,7 +743,6 @@ li.fw-flash-message {
     text-transform: uppercase;
     color: #222222;
     font-family: 'Roboto Slab', serif;
-
 }
 
 #contact-us .wel_header h5 {
@@ -817,8 +816,6 @@ ul.entry-meta {
 .main-content.blog-w.rap, .main-content.container.blog-wrap.single-blog {
     margin-top: 80px;
 }
-
-
 
 /*about us style*/
 
@@ -958,7 +955,6 @@ ul.entry-meta {
     font-size: 22px;
 }
 
-
 /*Partner*/
 
 #partner {
@@ -1001,7 +997,6 @@ ul.entry-meta {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
-
 
 /*Welcome Section*/
 #welcome {
@@ -1105,8 +1100,6 @@ ul.entry-meta {
 	box-shadow: 0px 0px 0px 6px rgba(255, 104, 99, 0.4);
 
 }
-
-
 
 .faq_main_content h6 {
 	margin-bottom: 0rem;
