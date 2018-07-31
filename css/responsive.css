@@ -63,7 +63,7 @@
 /* CHANGING BREAKPOINT OF BOOTSTRAP 3 NAVIGATION BAR*/
 @media (max-width: 999px) {
     .navbar-header {
-        float: none;
+        float: left;
     }
     .navbar-toggle {
         display: block;
@@ -497,7 +497,13 @@
         right: 5px;
     }
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
+
+
+    #header .header_menu .navbar-header{
+        padding: 20px 0 0 350px;
+    }
+
     #header .top_header .address {
         margin-right: -10px;
         margin-left: -10px;
@@ -679,8 +685,10 @@
     #portfolio .notes .note .img_overlay p {
         font-size: 11px;
     }
-    #counter {
-        padding-bottom: 20px;
+
+
+    .sigle_counter_item{
+        padding:0;
     }
     #counter .counter_header {
         padding-top: 20px;
@@ -932,8 +940,14 @@
 }
 @media all and (max-width: 480px) {
 
+    #logo{
+        margin:0 0 0 10%;
+    }
 
-
+    .navbar-header{
+        float:right;
+        margin-right: 15%;
+    }
 
     #header .header_menu .custom_navbar-brand {
         padding-top: 8px;
@@ -951,14 +965,20 @@
         margin-top: 10px;
         margin-right: -12px;
     }
+
+    #header .header_menu ul.main_menu{
+        padding-top: 60px;
+    }
+
     #header .header_menu ul.main_menu li,
     #header .header_menu ul.main_menu li.active a {
         display: initial;
     }
-    #header .header_menu ul.main_menu li a {
+    #header .header_menu ul.main_menu li a{
         font-size: 13px;
     }
-    #header .header_menu .navbar-nav>li>a {
+
+    #header .header_menu .navbar-nav + li + a {
         padding-top: 5px;
         padding-bottom: 5px;
         line-height: 20px;
@@ -969,6 +989,10 @@
     }
     #header .header_menu .navbar-collapse.in {
         overflow-y: visible;
+    }
+
+    #slider{
+        padding-top: 45px;
     }
     #slider .slider_text h2 {
         font-size: 18px;
@@ -983,9 +1007,6 @@
     #slider .slider_text p {
         padding-bottom: 5px;
         font-size: 10px;
-    }
-    #slider .carousel-caption {
-        bottom: 0%;
     }
     #slider .slider_text a.custom_btn {
         font-size: 10px;
@@ -1069,12 +1090,16 @@
     .achivment_padding {
         padding: 30px 0;
     }
-    #counter {
-        padding-bottom: 20px;
+
+    .counter_img_overlay{
+        padding:0;
     }
-    #counter .counter_header {
-        padding-top: 20px;
+
+    .counter_img_overlay h2{
+        padding-left: 100px;
     }
+
+    .counter_img_overlay h2
     #counter .counter_header h2 {
         font-size: 20px;
     }
@@ -1091,6 +1116,9 @@
     }
     .counter_text p {
         font-size: 16px;
+    }
+    .sigle_counter_item{
+        padding:0;
     }
     #counter .sigle_counter_item {
         padding-top: 25px;
@@ -1286,6 +1314,11 @@
     }
 }
 @media all and (max-width: 320px) {
+
+    #header .header_menu ul.main_menu{
+        padding-top: 60px;
+    }
+
     #header .top_header .address {
         margin-right: -10px;
         margin-left: -10px;
@@ -1308,7 +1341,7 @@
         font-size: 10px;
     }
     #header .top_header .social_icon i {
-        padding: 0 0px;
+        padding: 0 0;
         font-size: 7px;
     }
     #header .header_menu .custom_navbar-brand {
@@ -1347,7 +1380,8 @@
         overflow-y: visible;
     }
     #slider {
-        min-height: 95px;
+        padding-top: 45px;
+        min-height: 150px;
     }
     #slider .carousel-indicators {
         bottom: 25px;
@@ -1455,14 +1489,13 @@
     .achivment_padding {
         padding: 25px 0;
     }
-    #counter {
-        padding-bottom: 20px;
-    }
+
     #counter .counter_header {
         padding-top: 20px;
     }
     #counter .counter_header h2 {
-        font-size: 20px;
+        font-size: 30px;
+        text-align: center;
     }
     #counter .counter_header p {
         font-size: 11px;
@@ -1470,170 +1503,24 @@
         padding-top: 10px;
     }
     .sigle_counter_item {
-        padding-top: 0;
-        padding-bottom: 0px;
+        padding:0;
     }
     #counter .sigle_counter_item img {
-        height: 45px;
+        height: 100px;
     }
     .counter_text span {
         font-size: 14px;
     }
-    .counter_text p {
-        font-size: 13px;
-    }
-    #counter .sigle_counter_item {
-        padding-top: 15px;
-    }
-    #event {
-        padding: 25px 0px;
-    }
-    #event .event_item img {
-        height: 370px;
-    }
-    #event .event_header h2 {
-        font-size: 16px;
-    }
-    #event .event_header {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    #event .event_header.text-center p {
-        font-size: 11px;
-    }
-    #event .event_text h4 {
-        font-size: 10px;
-    }
-    #event .event_text {
-        padding: 15px 30px 0;
-        height: 370px;
-    }
-    #event .event_text h6 {
-        font-size: 10px;
-    }
-    #event .event_text p {
-        font-size: 10px;
-    }
-    #event a.event_btn {
-        font-size: 8px;
-    }
-    #event a.event_btn {
-        padding: 7px 2px;
-    }
-    #event .event_news {
-        padding-top: 25px;
-        width: 100%;
-        padding-bottom: 5px;
-    }
 
-    #event .event_news_text h4 {
-        font-size: 12px;
+    #counter .counter_text{
+        padding-left: 30%;
+        padding-bottom: 10%;
     }
-    #event .event_news_text p {
-        padding-top: 5px;
-        font-size: 10px;
-    }
-    #testimonial {
-        padding: 25px 0px;
-    }
-    #testimonial .testimonial_header {
-        padding-top: 20px;
-    }
-    #testimonial .testimonial_header h2 {
+    #counter .counter_text p {
         font-size: 20px;
-        padding-bottom: 10px;
-    }
-    #testimonial .testimonial_header p {
-        font-size: 11px;
-    }
-    #testimonial #fade-quote-carousel .profile-circle {
-        width: 50px;
-        height: 75px;
-    }
-    #testimonial .testimonial_content p {
-        font-size: 11px;
-        padding-left: 20px;
-        padding-right: 0px;
-        padding-bottom: 20px;
-    }
-    #testimonial .testimonial_content i {
-        font-size: 15px;
-    }
-    #testimonial .testimonial_author h5 {
-        font-size: 12px;
-        padding-bottom: 3px;
-    }
-    #testimonial .testimonial_author p {
-        font-size: 11px;
-    }
-    #testimonial #fade-quote-carousel.carousel .carousel-indicators > li {
-        border: 1px solid;
-        width: 8px;
-        height: 8px;
-    }
-    .carousel-indicators li {
-        top: 35px;
-    }
-    .carousel-indicators .active {
-        width: 8px;
-        height: 8px;
-    }
-    .carousel-indicators li {
-        width: 8px;
-        height: 8px;
-    }
-    #blog .single_blog_item {
-        margin: 8px 0;
-    }
-    #blog .latest_blog {
-        padding-top: 20px;
-    }
-    #blog .latest_blog h2 {
-        font-size: 20px;
-    }
-    #blog .latest_blog p {
-        padding-bottom: 20px;
-        font-size: 11px;
-    }
-    #blog .blog_content h3 {
-        font-size: 16px;
-    }
-    #blog span.clock {
-        font-size: 10px;
-    }
-    #blog .expert span.time {
-        font-size: 10px;
-    }
-    #blog .expert span.admin {
-        font-size: 10px;
-    }
-    #blog .expert a {
-        font-size: 10px;
-    }
-    #blog .expert p.right_side {
-        padding-left: 30px;
-    }
-    #blog p.blog_news_content {
-        font-size: 12px;
-    }
-    #blog a.blog_link {
-        font-size: 11px;
-    }
-    #purches h2.purches_title {
-        font-size: 20px;
-        padding-top: 35px;
-    }
-    #purches a.purches_btn {
-        margin-top: 60px;
-        padding: 7px 40px;
-        border-radius: 2px;
-        font-size: 12px;
-    }
-    #market .market_area {
-        padding-top: 20px;
-    }
-    #market .market_logo {
-        margin: 20px 0;
+        font-family:'Lato', sans-serif;
+        width:70%;
+        text-align: justify;
     }
     .contact_us_padding {
         padding: 25px 0px;
