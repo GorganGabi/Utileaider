@@ -154,10 +154,6 @@ html, body {
 
 /***************************/
 
-#logo{
-    cursor:pointer;
-}
-
 .zero_mp {
     padding: 0;
     margin: 0;
@@ -184,9 +180,9 @@ html, body {
 /*header*/
 
 #logo{
+    cursor:pointer;
     float:left;
     margin-top: 20px;
-    margin-left:100px;
 }
 
 #header .header_menu {
@@ -266,6 +262,7 @@ html, body {
 
 #slider {
     min-height: 450px;
+    padding-top: 50px;
 }
 
 #slider .slider_text {

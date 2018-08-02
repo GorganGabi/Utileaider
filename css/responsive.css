@@ -63,7 +63,8 @@
 /* CHANGING BREAKPOINT OF BOOTSTRAP 3 NAVIGATION BAR*/
 @media (max-width: 999px) {
     .navbar-header {
-        float: left;
+        float: right;
+        padding: 15px 65px 0 0;
     }
     .navbar-toggle {
         display: block;
@@ -501,7 +502,8 @@
 
 
     #header .header_menu .navbar-header{
-        padding: 20px 0 0 350px;
+        float:right;
+        padding: 20px 70px 0 0;
     }
 
     #header .top_header .address {
@@ -941,12 +943,17 @@
 @media all and (max-width: 480px) {
 
     #logo{
-        margin:0 0 0 10%;
+        display:inline;
+        float:left;
+        margin:0;
+        padding:0
+    }
+    #header .header_menu .navbar-header{
+        padding:0 0 0 20%;
     }
 
-    .navbar-header{
-        float:right;
-        margin-right: 15%;
+    #header .header_menu ul.main_menu{
+        padding-top: 60px;
     }
 
     #header .header_menu .custom_navbar-brand {
@@ -1314,6 +1321,16 @@
     }
 }
 @media all and (max-width: 320px) {
+
+    #logo{
+        display:inline;
+        float:left;
+        margin:0;
+        padding:0 13.5% 0 0;
+    }
+    #header .header_menu .navbar-header{
+        padding:0;
+    }
 
     #header .header_menu ul.main_menu{
         padding-top: 60px;
