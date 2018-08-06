@@ -491,7 +491,7 @@ li.fw-flash-message {
 
 .custom-btn {
     padding: 13px 82px;
-    background: red	;
+    background: #0099CC	;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -823,8 +823,7 @@ ul.entry-meta {
     line-height: 1 ;
     text-transform: uppercase;
     border-left: 3px solid #000000;
-    font-family: tahoma; 
-
+    font-family: tahoma;
 }
 
 .section_main_title{
