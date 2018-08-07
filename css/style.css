@@ -780,6 +780,11 @@ li.fw-flash-message {
     bottom: 70px;
 }
 
+.carousel-caption{
+    left:26%;
+    text-shadow: 2px 2px #3D3E3D;
+}
+
 ul.entry-meta {
     text-align: left;
 }
@@ -898,36 +903,31 @@ ul.entry-meta {
     font-size: 30px ;
 }
 
-.border {
-    display: block;
-    margin : auto ; 
-    width : 160px ; 
-    height: 3px;
-    background: #0099CC;
-    margin-bottom: 40px;
+.team_item {
+    float:left;
+    background: rgba(76, 175, 80, 0.4);
+    padding: 50px;
+    border-radius: 5%;
+
 }
 
-.ps{
-    margin-bottom: 40px;
+.team_item img{
+    height: 250px;
+    width: 250px;
+    border-radius: 70%;
 }
 
-.ps a{
-    display: inline-block;
-    margin :0 30px ;
-    width: 160px;
-    height: 160px;
-    overflow:hidden;
-    border-radius: 50%;
+.team_item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
 }
 
-.ps a img{
-    width: 100%;
-    filter : grayscale(100%);
-    transition : 0.4s all;
-}
-
-.ps a:hover> img {
-    filter: none;
+.team_item p:first-of-type {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: darkred;
+    padding-top: 40px;
 }
 
 .section{
