@@ -1,6 +1,10 @@
 /*Medium Screen*/
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+    #slider .slider_text{
+        padding-bottom: 0;
+    }
+}
 @media (max-width: 991px) {
     #header .top_header .phone p {
         font-size: 11px;
@@ -368,6 +372,7 @@
     #slider{
         padding-top: 85px;
     }
+
     #slider .carousel-indicators {
         bottom: 50px;
     }
@@ -538,7 +543,7 @@
         font-size: 10px;
     }
     #slider .carousel-caption {
-        bottom: 15%;
+        bottom: 40%;
     }
     #slider .slider_text a.custom_btn {
         font-size: 10px;
@@ -837,7 +842,7 @@
         margin: 0;
     }
     #slider .carousel-caption {
-        bottom: -15px;
+
     }
     #slider .slider_text a.custom_btn {
         font-size: 10px;
