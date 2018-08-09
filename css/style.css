@@ -901,23 +901,23 @@ ul.entry-meta {
 .team-section {
    overflow: hidden;
    text-align: center;
-   background: #0099CC;
    padding: 60px;
 }
 
 .team-section h1{
+    font-size: 36px;
+    padding-bottom: 20px;
+    font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 60px;
-    color : white;
-    font-size: 30px ;
+    color: #222222;
+    font-family: 'Roboto Slab', serif;
 }
 
 .team_item {
     float:left;
-    background: rgba(76, 175, 80, 0.4);
+    /*background: rgba(76, 175, 80, 0.4);*/
     padding: 50px;
     border-radius: 5%;
-
 }
 
 .team_item img{
@@ -928,15 +928,16 @@ ul.entry-meta {
 
 .team_item p {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: white;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 20px;
 }
 
 .team_item p:first-of-type {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    color: darkred;
-    padding-top: 40px;
+    color: black;
+    padding: 20px 0 0 0;
 }
 
 .section{
