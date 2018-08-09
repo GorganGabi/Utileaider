@@ -367,6 +367,16 @@ html, body {
     padding: 80px 0;
 }
 
+.about-item p{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-item .home-button {
+    margin-top: 10px;
+
+}
+
 .wel_header {
     text-align: center;
     color: #222222;
@@ -828,7 +838,7 @@ ul.entry-meta {
     line-height: 1 ;
     text-transform: uppercase;
     border-left: 3px solid #000000;
-    font-family: tahoma;
+    font-family: Tahoma, sans-serif;
 }
 
 .section_main_title{
@@ -847,7 +857,7 @@ ul.entry-meta {
     -webkit-box-shadow : 0 0 0 10px #000000 inset;
     box-shadow : 0 0 0 10px #000000 inset;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 0px;
     position : relative;
     display : block;
 }
@@ -874,13 +884,12 @@ ul.entry-meta {
 
 .btn-color-background {
     -webkit-user-select: none;
-    /*background-image: -webkit-gradient(145deg,#78b4fb 0%, #1d5daa 0%, #0a284c 100%);*/
     background: linear-gradient(to bottom right,#0099CC,#78b4fb );
     border: 1px solid #bfa67a;
     border-radius: 2px; 
-    /*color: #ffffff;*/
+    color: #ffffff;
     cursor: pointer;
-    display:inline-block;
+    display: inline-block;
     font-size: 14px;
     line-height: 1.42857;
     margin-bottom: 0;

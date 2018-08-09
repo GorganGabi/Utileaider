@@ -11,9 +11,6 @@
     });
 
     $.localScroll();
-
-
-
 }(jQuery));
 
 function myFunction() {
